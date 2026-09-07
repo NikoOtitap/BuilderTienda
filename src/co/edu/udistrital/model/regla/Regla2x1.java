@@ -2,30 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package co.edu.udistrital.model;
+package co.edu.udistrital.model.regla;
 
-import java.time.LocalDate;
+import co.edu.udistrital.model.Producto;
 
 /**
  *
  * @author oliva
  */
-public class Promocion2x1 extends Promocion {
+
+public class Regla2x1 implements ReglaPrecio {
+
     private Producto productoPrincipal;
     private Producto productoGratis;
 
-    public Promocion2x1(String nombre, LocalDate fechaVencimiento, Producto productoPrincipal, Producto productoGratis) {
-        super(nombre, fechaVencimiento);
+    public Regla2x1(Producto productoPrincipal, Producto productoGratis) {
         this.productoPrincipal = productoPrincipal;
         this.productoGratis = productoGratis;
-    }
-
-    public Producto getProductoPrincipal() {
-        return productoPrincipal;
-    }
-
-    public Producto getProductoGratis() {
-        return productoGratis;
     }
 
     @Override

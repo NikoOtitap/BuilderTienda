@@ -1,4 +1,4 @@
-package co.edu.udistrital.builder;
+    package co.edu.udistrital.builder;
 
 import co.edu.udistrital.model.Promocion;
 import java.time.LocalDate;
@@ -7,17 +7,15 @@ import java.time.LocalDate;
  *
  * @author oliva
  */
-public abstract class PromocionBuilder {
-    protected String nombre;
-    protected LocalDate fechaVencimiento;
+public interface PromocionBuilder {
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+    void setNombre(String nombre);
+    
+    void setFechaInicio(LocalDate fechaInicio);
 
-    public void setFechaVencimiento(LocalDate fechaVencimiento) {
-        this.fechaVencimiento = fechaVencimiento;
-    }
+    void setFechaVencimiento(LocalDate fechaVencimiento);
 
-    public abstract Promocion build();
+    void setReglaPrecio();
+
+    Promocion build();
 }

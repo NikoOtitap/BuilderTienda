@@ -4,19 +4,24 @@
  */
 package co.edu.udistrital.model;
 
+import co.edu.udistrital.model.regla.ReglaPrecio;
 import java.time.LocalDate;
 
 /**
  *
  * @author oliva
  */
-public abstract class Promocion {
-    protected String nombre;
-    protected LocalDate fechaVencimiento;
+public class Promocion {
+    private String nombre;
+    private LocalDate fechaInicio;
+    private LocalDate fechaVencimiento;
+    private ReglaPrecio reglaPrecio;
 
-    public Promocion(String nombre, LocalDate fechaVencimiento) {
+    public Promocion(String nombre, LocalDate fechaInicio, LocalDate fechaVencimiento, ReglaPrecio reglaPrecio) {
         this.nombre = nombre;
+        this.fechaInicio=fechaInicio;
         this.fechaVencimiento = fechaVencimiento;
+        this.reglaPrecio = reglaPrecio;
     }
 
     public String getNombre() {
@@ -27,5 +32,11 @@ public abstract class Promocion {
         return fechaVencimiento;
     }
 
-    public abstract double calcularPrecioFinal(int cantidad);
+    public ReglaPrecio getReglaPrecio() {
+        return reglaPrecio;
+    }
+
+    public double calcularPrecioFinal(int cantidad) {
+        return reglaPrecio.calcularPrecioFinal(cantidad);
+    }
 }
