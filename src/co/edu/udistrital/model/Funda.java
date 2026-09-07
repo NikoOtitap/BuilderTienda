@@ -8,6 +8,15 @@ package co.edu.udistrital.model;
  *
  * @author oliva
  */
-public class Funda {
-    
+public class Funda extends Producto {
+    private String compatibleCon;
+
+    public Funda(String nombre, double precio, String compatibleCon) {
+        super(nombre, precio);
+        this.compatibleCon = compatibleCon;
+    }
+
+    public String getCompatibleCon() {
+        return compatibleCon;
+    }
 }

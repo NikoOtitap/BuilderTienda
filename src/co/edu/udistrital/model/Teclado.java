@@ -8,6 +8,15 @@ package co.edu.udistrital.model;
  *
  * @author oliva
  */
-public class Teclado {
-    
+public class Teclado extends Producto {
+    private boolean mecanico;
+
+    public Teclado(String nombre, double precio, boolean mecanico) {
+        super(nombre, precio);
+        this.mecanico = mecanico;
+    }
+
+    public boolean isMecanico() {
+        return mecanico;
+    }
 }

@@ -9,12 +9,7 @@ package co.edu.udistrital.app;
  * @author oliva
  */
 public class App {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Cliente().ejecutar();
     }
-    
 }
