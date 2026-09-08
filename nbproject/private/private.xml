@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/regla/ReglaPrecio.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/regla/Regla2x1.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/regla/ReglaCombo.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/regla/ReglaVolumen.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/builder/Promocion2x1Builder.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/Promocion.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/builder/PromocionComboBuilder.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/builder/PromocionBuilder.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/app/Cliente.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/builder/PromocionVolumenBuilder.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/director/PromocionDirector.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/Producto.java</file>
+            <file>file:/C:/Users/oliva/OneDrive/Documentos/NetBeansProjects/BuilderTienda/src/co/edu/udistrital/model/Teclado.java</file>
+        </group>
     </open-files>
 </project-private>
